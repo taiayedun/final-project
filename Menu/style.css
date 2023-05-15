@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 250px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Dynalight', cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+  color: black;
+}
+
+
+
+a {
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+p,
+h3 {
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  padding: 30px;
+  color: black;
+}
+
+
+.logo img {
+  height: 200px;
+  width: 200px;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+}
+
+.header a:hover {
+  color: rgb(102, 160, 208);
+}
+
+
+button {
+  background-color: #66a0d0;
+  border-color: rgb(77, 155, 218);
+  border-radius: 18px;
+  margin-top: 80px;
+  width: 300px;
+}
+
+Section {
+  Padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+hr {
+  height: 2px;
+  background-color: #66a0d0;
+  border-color: #66a0d0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+}
+
+.menu {
+  width: 100%;
+  background-color: #66a0d0;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.menu h1 {
+  padding: 30px;
+}
+
+.menu hr {
+  height: 2px;
+  background-color: #66a0d0;
+  border-color: black;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  color: white;
+  text-align: left;
+  width: 75%;
+  text-shadow: 1px 1px grey;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+.adoption {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adoption section {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.adoption h2 {
+  background-color: #66a0d0;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+
+  border-radius: 20px;
+  border: 3px solid #265e8c;
+}
+
+.adoption-info {
+  background-color: #66a0d0;
+  color: white;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%;
+  height: 800px auto;
+
+
+  border-radius: 20px;
+  border: 3px solid #265e8c;
+}
+
+.adoption-info section {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  height: 775px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adoption-info section img {
+  Width: 250px;
+  height: 250px;
+
+  border-radius: 10px;
+  border: 1px solid black;
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.section-right {
+  margin: 0 auto;
+  width: 400px;
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+
+}
+
+.section-right h3 {
+  justify-content: center;
+  margin: 0 auto;
+}

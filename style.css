@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+hr {
+  height: 2px;
+  background-color: #66a0d0;
+  border-color: #66a0d0;
+}
+
+main {
+  padding-top: 250px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Dynalight', cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+  color: black;
+}
+
+a {
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: 'Bad Script', cursive;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  color: White;
+}
+
+h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+
+nav {
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  height: 200px;
+  width: 200px;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.header a:hover {
+  color: rgb(102, 160, 208);
+}
+
+main img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/*Featured menu with img*/
+.featured_img {
+  width: 100%;
+  margin: 0 auto;
+  Height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #66a0d0;
+}
+
+.featured {
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  height: 420px;
+
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+  width: 32%;
+  height: 280px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu1 p,
+.menu2 p,
+.menu3 p {
+  padding: 5px;
+  width: 100%;
+  margin: 2px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border-color: black;
+}
+
+
+.menu1 img,
+.menu2 img,
+.menu3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.img {
+  background-color: white;
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.Rules-guide {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  background: white;
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.titlerg {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  background: #66a0d0;
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titlerg h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.learnmore {
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+  background: rgb(236, 236, 236);
+
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learnmore p,
+.learnmore ul,
+.learnmore li {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  color: black;
+}
+
+ul,
+li {
+  font-family: 'Bad Script', cursive;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+.gallery {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery img {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+@media (max-width: 500px) {
+
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+}
+
+footer {
+  padding: 10px;
+  background-color: black;
+}
+
+.address {
+  margin-bottom: 10px;
+}
