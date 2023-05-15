@@ -127,6 +127,7 @@ img {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
+  text-align:center;
 }
 
 .menu h1 {
@@ -152,16 +153,18 @@ img {
 
 .flavor,
 .dessert {
+  margin:0 auto;
   color: white;
+  width:75%;
   text-align: left;
-  width: 75%;
   text-shadow: 1px 1px grey;
   text-align: left;
 }
 
-.price {
+.price p{
+  margin:0 auto;
+  width:25%;
   text-align: right;
-  width: 25%;
   color: #ffffff;
 }
 
